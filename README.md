@@ -1,16 +1,80 @@
-# React + Vite
+# 💰 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **Finance Dashboard UI** built using React and Tailwind CSS to visualize and manage financial data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://finance-dashboard-phi-one.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Core Features
+
+* Dashboard overview with summary cards (Balance, Income, Expenses)
+* Time-based visualization (Balance trend)
+* Category-based visualization (Spending breakdown)
+* Transactions list with details
+* Search, filter, and sorting functionality
+* Role-based UI (Viewer & Admin)
+
+---
+
+### 🔹 Advanced Enhancements (Bonus)
+
+* 🌙 Dark Mode (Toggle with icon)
+* 💾 Data Persistence using Local Storage
+* 🌐 Mock API Integration (Simulated async data fetching)
+* ⏳ Loading State for better UX
+* 📤 Export Transactions as CSV
+* ✨ Smooth animations and hover effects
+
+---
+
+## 🛠 Tech Stack
+
+* React (Vite)
+* Tailwind CSS
+* Recharts (for charts)
+* Context API (state management)
+
+---
+
+## 📂 Project Structure
+
+src/
+
+* components/
+* context/
+* api/
+* data/
+* pages/
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/finance-dashboard.git
+cd finance-dashboard
+npm install
+npm run dev
+```
+
+---
+
+## 🎯 Highlights
+
+* Clean and responsive UI design
+* Real-world dashboard experience
+* Modular and scalable code structure
+* Focus on UX and performance
+
+---
+
+## 👨‍💻 Author
+
+JAGRIT KUMAR
